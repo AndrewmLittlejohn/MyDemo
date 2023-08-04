@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Schedule from "./components/schedule";
+import Roster from "./components/roster";
 import './styles/App.css';
 
 
@@ -15,7 +15,7 @@ function App() {
 
       <main>
         <Routes>
-          <Route path="/schedule" element={<Schedule />} />
+          <Route path="/roster" element={<Roster />} />
         </Routes>
       </main>
     </div>

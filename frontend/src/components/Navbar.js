@@ -13,7 +13,7 @@ function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav">
                     <Link className="nav-link active" to="/">Home</Link>
-                    <Link className="nav-link" to="/schedule">Schedule</Link>
+                    <Link className="nav-link" to="/roster">Roster</Link>
                     <Link className="nav-link" to="/historical">Historical Home</Link>
                     <Link className="nav-link disabled" to="/analysis">Analysis & Analytics</Link>
                     </div>

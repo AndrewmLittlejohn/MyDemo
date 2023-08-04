@@ -55,18 +55,22 @@ function Schedule (){
       <Table striped bordered hover>
         <thead>
           <tr>
-            <th>Date</th>
-            <th>Time</th>
-            <th>Opponent</th>
-            <th>Home or Away</th>
+            <th>Name</th>
+            <th>Position</th>
+            <th>Number</th>
+            <th>Bats</th>
+            <th>Throws</th>
+            <th>Professional Debut</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>1</td>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
+            <td>Babe Ruth</td>
+            <td>Pitcher</td>
+            <td>3</td>
+            <td>L</td>
+            <td>L</td>
+            <td>1914</td>
           </tr>
           <tr>
             <td>2</td>

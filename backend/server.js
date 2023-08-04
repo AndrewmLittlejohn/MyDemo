@@ -2,6 +2,7 @@ const express = require('express');
 const { graphqlHTTP } = require('express-graphql');
 const cors = require('cors');
 const { connectMongoDB, connectMySQL } = require('./config/connection');
+const mlbRoutes = require('./routes/api/MLB.js');
 
 // Create an Express server
 const app = express();
@@ -15,6 +16,8 @@ const db = connectMySQL();
 
 // Dummy GraphQL schema
 const schema = {};  // TODO: Define your schema
+
+app.use('/api', mlbRoutes);
 
 // Use GraphQL with Express
 app.use('/graphql', graphqlHTTP({
